@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
+h2, h3 {color: rgb(25, 145, 145);}
+main {padding: 20px; display: flex; gap: 1.5rem;}
+footer {padding: 20px; color: white; background-color: rgb(91, 201, 201); text-align: center; font-weight: bold;}
+nav a {font-size: 18px; font-weight: 400px; text-decoration:none; color:rgb(25, 145, 145) ;}
+nav a:hover {font-weight: bold; color: darkblue;}
+a:visited {color: #00c8eb;}
+.aside {text-align: center;}
+.gambar {max-height: 300px; object-fit: cover; width: 100%; object-position: center ;}
+.card { box-shadow: 2px 4px 8px 2px rgba(68, 59, 59, 0.2); border-radius: 8px; padding: 20px;}
+.judul {font-size: larger; text-align: center; color: white; background-color: #00c8eb;}
+nav ul {padding-inline: 4rem; display: flex;}
+.nav li {padding: 20px; color: white;}
+.nav {background-color:aliceblue; padding: 5px; object-fit:fill; position: sticky; top: 0; margin: 0;}
+.content {float: left; width: 75%;}
+aside {flex: 1;}
+header {display: inline;}
+nav.ref li{text-align: left;}
+.author-img {max-width: 300px;}
+#content {display: flex; flex: 5; flex-flow: column-reverse; gap: 1rem 2rem;}
+@media screen and (max-width: 1200px) { main {flex-flow: column nowrap;} main aside {align-self: center;}
+@media screen and (max-width: 768px) {nav ul {justify-content: center;} main aside {align-self: stretch;}}}

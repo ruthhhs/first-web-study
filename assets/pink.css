@@ -1,0 +1,127 @@
+/*base*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    margin: 0px;
+    font-size: 16px;
+    padding: 0px;
+    background: url(pattern/playstation-pattern.webp);
+}
+main {
+    padding:0px 50px;
+    overflow: auto;
+}
+.container {
+    width: 70%;
+    background: white;
+    background-size: cover;
+    margin: auto;
+    box-shadow: 5px gray;
+}
+.clear {
+    clear: left;
+}
+
+
+/*text*/
+p {
+    text-align: justify;
+}
+h1, h2, h3 {
+    color: #eb5757;
+}
+
+.card img {
+    float: left;
+    margin-right: 20px;
+}
+.card p {
+
+}
+.gambar{
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+/*judul*/
+.judul{
+    padding: 5px 30px 0px 30px;
+    background: url(image/circle-pink.png);
+    height: 210px; max-height: max-content;
+    border-bottom: 3px #ffc0cb solid;
+    text-align: right;
+}
+.judul h1 {
+    margin-right: 20px;
+}
+.judul p{
+    width: 600px;
+    text-align: right;
+    margin-left: 30%;
+    margin-top: -10px;
+}
+.nav{
+    background: #ffeeee;
+    background-size: contain;
+    padding: 5px;
+    box-shadow: #ffeeee 0px 10px 20px ;
+}
+.nav li{
+    padding:15px;
+    display: inline;
+}
+.nav a {
+    color: #eb5757;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav a:hover {
+    background-color:#FFC6C6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px #f0bcbc;
+}
+
+
+/*footer*/
+footer{
+    margin: 0px;
+    padding: 10px;
+    background: #ffeeee;
+    border-top:3px pink outset;
+    background-size: contain;
+}
+footer p {
+    text-align: center;
+}
+
+
+/*aside*/
+.aut img{
+    width: 150px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.aut {
+    width: 60%;
+    float: left;
+    margin-right: 10%;
+    padding: 20px ;
+    border-radius: 5px ;
+    box-shadow: #e9d2d2 3px 5px 5px;
+}
+.ref {
+    float: left;
+    padding: 20px ;
+    border-radius: 5px ;
+    box-shadow: #e9d2d2 3px 5px 5px;
+
+}
+.ref li {
+    margin-left: -20px;
+}
+.aside {
+    margin-bottom: 20px;
+}
