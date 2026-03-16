@@ -9,7 +9,7 @@
 :root{
     --text: #fff7f7;
     --primary: #1a1616;
-    --secondary: #555252;
+    --secondary: #91585817;
     --acsent: #ff7474;
 }
 
@@ -26,6 +26,7 @@ h1, h2, h3 {
     font-weight: 800;
     color: var(--acsent);
     margin: 10px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 p {
@@ -118,7 +119,7 @@ p {
 
 #title h1 {
     font-size: 50px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); */
 }
 
 #title p {
@@ -158,6 +159,8 @@ p {
 img {
     width: 200px;
     height: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--primary);
 }
 
 .card img{
@@ -181,4 +184,21 @@ footer p{
 /* ASIDE ====== */
 .aside {
     flex: 1;
+}
+
+.aut {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aut a {
+    color: var(--acsent);
+}
+
+.aut p {
+    text-align: left;
+}
+
+.aut img {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 25);
 }
